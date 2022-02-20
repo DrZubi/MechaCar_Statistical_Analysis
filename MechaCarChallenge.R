@@ -38,6 +38,8 @@ lot_summary = df_suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(M
                                                                                Var=var(PSI),
                                                                                Std=sd(PSI))
 
+total_summary
+
 
 ##Deliverable 3##
 
